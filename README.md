@@ -1,60 +1,68 @@
-````markdown
 <div align="center">
 
 # 🛡️ Basic Network Sniffer
 ### 🚀 CodeAlpha Cyber Security Internship Project
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&duration=3000&pause=1000&color=00C4FF&center=true&vCenter=true&width=700&lines=Python+Based+Network+Packet+Sniffer;Built+Using+Scapy;Cyber+Security+Internship+Project;Packet+Analysis+Made+Simple" alt="Typing Animation"/>
-
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3Bqb2h2dXR4MzR4M2l3d3Q2b2lxdGF6YTFyMzI5NnE1ZmJ6N3J3dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif" width="700"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Python+Based+Network+Sniffer;Real-Time+Packet+Analysis;Built+Using+Scapy;Learn+Networking+Like+a+Cybersecurity+Professional!" />
 
 <br>
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Scapy](https://img.shields.io/badge/Scapy-Network%20Analysis-green?style=for-the-badge)
+![Scapy](https://img.shields.io/badge/Scapy-Network%20Analysis-success?style=for-the-badge)
+![Cyber Security](https://img.shields.io/badge/Cyber%20Security-CodeAlpha-red?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![Platform](https://img.shields.io/badge/Platform-Windows-orange?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-red?style=for-the-badge)
 
 </div>
 
 ---
 
-# 📌 Project Overview
+# 📖 Project Overview
 
-The **Basic Network Sniffer** is a Python-based cybersecurity tool developed during the **CodeAlpha Cyber Security Internship**.
+The **Basic Network Sniffer** is a Python-based cybersecurity tool developed as part of the **CodeAlpha Cyber Security Internship**.
 
-This application captures **live network packets** and analyzes important packet information including:
+This application captures **live network packets** and extracts useful information such as:
 
 - 🌐 Source IP Address
 - 🎯 Destination IP Address
-- 📦 Packet Protocol
+- 📦 Network Protocol
 - 📋 Packet Summary
-- 🔍 Packet Structure
+- 📡 Live Packet Details
 
-It provides beginners with practical exposure to **network packet analysis**, **TCP/IP communication**, and **ethical cybersecurity concepts**.
+The project helps beginners understand how data travels across networks and introduces the fundamentals of packet analysis and network monitoring.
+
+---
+
+# 🎯 Objectives
+
+- Capture live network packets
+- Analyze packet structures
+- Understand TCP/IP communication
+- Learn packet sniffing fundamentals
+- Explore network protocols
+- Gain hands-on cybersecurity experience
 
 ---
 
 # ✨ Features
 
-✔️ Capture Live Network Traffic
+✅ Capture Live Network Traffic
 
-✔️ Display Source IP Address
+✅ Display Source IP Address
 
-✔️ Display Destination IP Address
+✅ Display Destination IP Address
 
-✔️ Detect TCP Packets
+✅ Detect TCP Packets
 
-✔️ Detect UDP Packets
+✅ Detect UDP Packets
 
-✔️ Detect ICMP Packets
+✅ Detect ICMP Packets
 
-✔️ Real-Time Packet Monitoring
+✅ Display Packet Summary
 
-✔️ Packet Summary Display
+✅ Real-Time Packet Monitoring
 
-✔️ Lightweight & Beginner Friendly
+✅ Lightweight & Beginner Friendly
 
 ---
 
@@ -64,6 +72,7 @@ It provides beginners with practical exposure to **network packet analysis**, **
 |------------|----------|
 | 🐍 Python | Programming Language |
 | 📡 Scapy | Packet Capturing & Analysis |
+| 💻 Command Prompt | Program Execution |
 
 ---
 
@@ -75,35 +84,28 @@ CodeAlpha_Basic_Network_Sniffer/
 ├── network_sniffer.py
 ├── requirements.txt
 ├── README.md
+├── report.pdf
+│
 ├── screenshots/
 │     ├── output1.png
-│     └── output2.png
-└── report.pdf
-````
-
+│     ├── output2.png
 ---
 
 # ⚙️ Installation
 
-## Step 1
-
-Clone the repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/YourUsername/CodeAlpha_Basic_Network_Sniffer.git
 ```
 
-## Step 2
-
-Move into the project
+### 2️⃣ Navigate to the Project
 
 ```bash
 cd CodeAlpha_Basic_Network_Sniffer
 ```
 
-## Step 3
-
-Install dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install scapy
@@ -123,66 +125,84 @@ pip install -r requirements.txt
 python network_sniffer.py
 ```
 
-> **Run the terminal as Administrator for packet capturing.**
+> **Note:** Run the terminal as **Administrator** (Windows) or with **sudo** (Linux/macOS) to capture packets successfully.
 
 ---
 
-# 📊 Output
-
-The program displays information such as:
+# 📊 Sample Output
 
 ```text
+====================================================
+Packet Captured
+
 Source IP      : 192.168.1.5
 Destination IP : 142.250.182.206
-Protocol        : TCP
-Summary         : TCP 192.168.1.5:52345 > 142.250.182.206:https
+Protocol       : TCP
+Summary        : TCP 192.168.1.5:52144 > 142.250.182.206:https
+
+====================================================
 ```
 
 ---
 
-# 📸 Screenshots
+# 📸 Project Screenshots
 
-## Output 1
+## Live Packet Capture
 
 <p align="center">
-<img src="screenshots/output1.png" width="800">
+<img src="screenshots/output1.png" width="850">
 </p>
 
 ---
 
-## Output 2
+## Protocol Analysis
 
 <p align="center">
-<img src="screenshots/output2.png" width="800">
+<img src="screenshots/output2.png" width="850">
 </p>
 
 ---
 
-# 🎯 Learning Outcomes
 
-✅ Packet Sniffing Fundamentals
+# 🌐 Protocols Supported
 
-✅ Network Traffic Analysis
-
-✅ TCP/IP Protocol Understanding
-
-✅ Real-Time Packet Inspection
-
-✅ Cybersecurity Basics
-
-✅ Ethical Packet Monitoring
+| Protocol | Description |
+|----------|-------------|
+| 🌍 IP | Internet Protocol |
+| 📡 TCP | Transmission Control Protocol |
+| 📬 UDP | User Datagram Protocol |
+| 📶 ICMP | Internet Control Message Protocol |
 
 ---
 
-# 🚀 Future Improvements
+# 📈 Learning Outcomes
 
-* GUI Version using Tkinter
-* Packet Filtering
-* Save Packets to PCAP File
-* Export Logs
-* Colorful Terminal Output
-* Protocol Statistics Dashboard
-* Live Traffic Graph
+✔️ Packet Sniffing
+
+✔️ TCP/IP Fundamentals
+
+✔️ Network Packet Analysis
+
+✔️ Protocol Identification
+
+✔️ Cybersecurity Basics
+
+✔️ Ethical Network Monitoring
+
+✔️ Python Networking
+
+---
+
+# 🔮 Future Improvements
+
+- GUI Interface using Tkinter
+- Packet Filtering
+- Save Packets as PCAP
+- Export Packet Logs
+- Live Dashboard
+- Protocol Statistics
+- Traffic Visualization
+- Dark Mode Interface
 
 ---
 
@@ -192,29 +212,32 @@ Summary         : TCP 192.168.1.5:52345 > 142.250.182.206:https
 
 📡 Scapy Library
 
-🌐 Networking
+🌐 Computer Networks
 
-🔐 Cyber Security
+🛡️ Cyber Security
 
 📊 Packet Analysis
 
-💻 Problem Solving
+⚡ Problem Solving
 
 ---
 
-# 📈 Project Workflow
+# 🔄 Project Workflow
 
 ```text
 Start Program
       │
       ▼
-Capture Packets
+Capture Live Packets
       │
       ▼
-Extract IP Layer
+Read IP Header
       │
       ▼
 Identify Protocol
+      │
+      ▼
+Extract Source & Destination IP
       │
       ▼
 Display Packet Information
@@ -225,15 +248,13 @@ Continue Monitoring
 
 ---
 
-# ⭐ Support
+# 🏆 Internship Task
 
-If you found this project helpful,
+**Internship:** CodeAlpha Cyber Security Internship
 
-⭐ Star this repository
+**Task:** Basic Network Sniffer
 
-🍴 Fork this repository
-
-📢 Share with others
+**Objective:** Build a Python application to capture and analyze live network traffic using the Scapy library while understanding packet structures and network communication.
 
 ---
 
@@ -241,23 +262,24 @@ If you found this project helpful,
 
 ## **Nilakshi Choudhary**
 
-🎓 B.Tech CSE Student
+🎓 B.Tech Computer Science Student
 
-🔐 Cyber Security Enthusiast
+🛡️ Cyber Security Enthusiast
 
 💻 Python Developer
 
-🌐 AI | ML | Networking | Ethical Hacking
+🤖 AI • ML • Networking • Ethical Hacking
+
+🌱 Passionate about building secure, efficient, and impactful software solutions.
 
 ---
 
 <div align="center">
 
-## 🚀 "Understanding packets is the first step toward understanding cybersecurity."
+## 🌟 "Every packet tells a story. Learn to read it."
 
-### ⭐ Thanks for Visiting ⭐
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&duration=2500&pause=1000&color=00FF99&center=true&width=550&lines=Happy+Coding!;Keep+Learning!;Stay+Secure!" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&duration=2500&pause=1000&color=00FF99&center=true&width=500&lines=Happy+Coding!;Keep+Learning!;Stay+Secure!" />
+### ⭐ If you found this project useful, don't forget to Star the repository!
 
 </div>
-```
